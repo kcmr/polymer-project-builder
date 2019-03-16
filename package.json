@@ -2,9 +2,9 @@
   "name": "polymer-project-builder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
   },
   "keywords": [
     "cli",
@@ -12,7 +12,11 @@
   ],
   "author": "",
   "license": "MIT",
+  "bin": {
+    "build-polymer-project": "bin/cli.js"
+  },
   "dependencies": {
+    "find-up": "^3.0.0",
     "fs-extra": "^7.0.1",
     "merge-stream": "^1.0.1",
     "polymer-build": "^3.1.2",
