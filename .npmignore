@@ -1,0 +1,6 @@
+# config files
+/.editorconfig
+/.eslintrc.js
+/.gitignore
+/.travis.yml
+/CONTRIBUTING.md
