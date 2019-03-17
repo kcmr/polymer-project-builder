@@ -9,11 +9,11 @@ module.exports = {
 		'text-summary'
 	],
 	coverageThreshold: {
-	  	global: {
+		global: {
 			branches: 85,
 			functions: 85,
 			lines: 85,
 			statements: 85
-	  	}
+		}
 	}
 };
