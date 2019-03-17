@@ -13,6 +13,15 @@ module.exports = {
 		browser: false,
 		node: true
 	},
+	overrides: [{
+		files: [
+			'tests/**/*.js'
+		],
+		env: {
+			jest: true
+		},
+		plugins: ['jest']
+	}],
 	plugins: ['node'],
 	rules: Object.assign({}, require('eslint-plugin-node').configs.recommended.rules, {
 		'no-process-env': 0,
