@@ -1,5 +1,12 @@
 # Polymer Project Builder
 
+[![Build Status](https://travis-ci.com/BBVAEngineering/polymer-project-builder.svg?branch=master)](https://travis-ci.com/BBVAEngineering/polymer-project-builder)
+[![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fpolymer-project-builder.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fpolymer-project-builder)
+[![NPM version](https://badge.fury.io/js/polymer-project-builder.svg)](https://badge.fury.io/js/polymer-project-builder)
+[![Dependency Status](https://david-dm.org/BBVAEngineering/polymer-project-builder.svg)](https://david-dm.org/BBVAEngineering/polymer-project-builder)
+[![codecov](https://codecov.io/gh/BBVAEngineering/polymer-project-builder/branch/master/graph/badge.svg)](https://codecov.io/gh/BBVAEngineering/polymer-project-builder)
+[![Greenkeeper badge](https://badges.greenkeeper.io/BBVAEngineering/polymer-project-builder.svg)](https://greenkeeper.io/)
+
 Polymer Project Builder is a command line tool to generate a single bundled file optimized for production from a set of HTML imports using [`polymer build`](https://polymer-library.polymer-project.org/2.0/docs/apps/build-for-production). 
 
 It is meant to be used in projects that don't match a typical Polymer project structure, for instance, where a shell is not present, or simply where the default output of the `polymer build` command does not fit well.
@@ -75,3 +82,22 @@ The `build` property in the configuration file accepts an object with the [same 
   }
 }
 ```
+
+# Contribute
+
+If you want to contribute, please read the [CONTRIBUTING.md](CONTRIBUTING.md).
+
+
+# Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/BBVAEngineering/polymer-project-builder/tags).
+
+
+# Authors
+
+See the list of [contributors](https://github.com/BBVAEngineering/polymer-project-builder/graphs/contributors) who participated in this project.
+
+
+# License
+
+This project is licensed under the [MIT License](LICENSE.md).
