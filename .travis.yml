@@ -14,27 +14,6 @@ env:
 
 jobs:
   include:
-    - stage: "Tests"
-      before_install:
-        - npm config set spin false
-        - npm install -g npm@6
-        - npm install -g codecov
-        - npm install -g greenkeeper-lockfile@1
-        - npm install -g @commitlint/travis-cli
-        - npm --version
-      install:
-        - if [[ $TRAVIS_BRANCH =~ greenkeeper || $TRAVIS_PULL_REQUEST_BRANCH =~ greenkeeper ]]; then npm install; else npm ci; fi
-      before_script:
-        - greenkeeper-lockfile-update
-      script:
-        - commitlint-travis
-        - npm run lint:js
-        - npm test
-      after_script:
-        - greenkeeper-lockfile-upload
-      after_success:
-        - codecov --file=coverage/lcov.info
-
     - stage: "Release"
       script: skip
       deploy:
@@ -46,9 +25,29 @@ jobs:
 before_install:
   - npm config set spin false
   - npm install -g npm@6
+  - npm install -g codecov
+  - npm install -g greenkeeper-lockfile@1
+  - npm install -g @commitlint/travis-cli
   - npm --version
 
+install:
+  - if [[ $TRAVIS_BRANCH =~ greenkeeper || $TRAVIS_PULL_REQUEST_BRANCH =~ greenkeeper ]]; then npm install; else npm ci; fi
+
+before_script:
+  - greenkeeper-lockfile-update
+
+script:
+  - commitlint-travis
+  - npm run lint:js
+  - npm test
+
+after_script:
+  - greenkeeper-lockfile-upload
+
+after_success:
+  - codecov --file=coverage/lcov.info
+
 stages:
-  - "Tests"
+  - test
   - name: "Release"
     if: branch = master
