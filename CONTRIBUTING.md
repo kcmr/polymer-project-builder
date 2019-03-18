@@ -1,6 +1,6 @@
 # Contributing
 
-This doc outlines the details of collaborating on this Ember addon.
+This doc outlines the details of collaborating on this CLI tool.
 
 ## Installation
 
