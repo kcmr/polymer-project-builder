@@ -1,0 +1,30 @@
+{
+  "entrypoint": "elements.html",
+  "bundleFileName": "bundled.html",
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/**"
+  ],
+  "moduleResolution": "none",
+  "dest": "dist/assets",
+  "build": {
+    "csp": true,
+    "js": {
+      "minify": true,
+      "compile": true
+    },
+    "css": {
+      "minify": true,
+      "autoprefixer": {
+        "browsers": [
+          "chrome >= 30",
+          "firefox >= 32",
+          "ios >= 9",
+          "last 1 edge versions"
+        ]
+      }
+    },
+    "html": {
+      "minify": true
+    }
+  }
+}

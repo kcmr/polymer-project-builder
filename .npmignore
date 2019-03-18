@@ -6,3 +6,6 @@
 /.huskyrc.js
 /jest.config.js
 /CONTRIBUTING.md
+
+# tests
+/tests/

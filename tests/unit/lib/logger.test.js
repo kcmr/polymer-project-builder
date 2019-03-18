@@ -2,7 +2,7 @@
 
 const log = require('fancy-log');
 const chalk = require('chalk');
-const { log: logger } = require('../../lib/logger');
+const { log: logger } = require('../../../lib/logger');
 
 jest.mock('fancy-log');
 
