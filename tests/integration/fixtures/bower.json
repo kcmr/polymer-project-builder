@@ -1,0 +1,6 @@
+{
+  "name": "fixtures",
+  "dependencies": {
+    "iron-meta": "^2.0.0"
+  }
+}

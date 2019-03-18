@@ -3,4 +3,9 @@
 /.eslintrc.js
 /.gitignore
 /.travis.yml
+/.huskyrc.js
+/jest.config.js
 /CONTRIBUTING.md
+
+# tests
+/tests/
