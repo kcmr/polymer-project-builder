@@ -6,33 +6,25 @@ module.exports = {
 		ecmaVersion: 2017,
 		sourceType: 'module'
 	},
-	plugins: [
-		'ember'
-	],
 	extends: [
+		'plugin:node/recommended',
 		'eslint-config-bbva'
 	],
 	env: {
-		browser: true
+		node: true
 	},
 	overrides: [{
 		files: [
-			'.commitlintrc.js',
-			'.eslintrc.js',
-			'index.js'
+			'tests/**/*.js'
 		],
-		excludedFiles: [],
-		parserOptions: {
-			sourceType: 'script',
-			ecmaVersion: 2015
-		},
 		env: {
-			browser: false,
-			node: true
+			jest: true
 		},
-		plugins: ['node'],
+		plugins: ['jest'],
 		rules: Object.assign({}, require('eslint-plugin-node').configs.recommended.rules, {
-			'no-process-env': 0
+			'no-process-env': 0,
+			'no-sync': 0,
+			'max-nested-callbacks': 0
 		})
 	}]
 };
