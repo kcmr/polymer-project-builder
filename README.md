@@ -7,7 +7,9 @@
 [![codecov](https://codecov.io/gh/BBVAEngineering/polymer-project-builder/branch/master/graph/badge.svg)](https://codecov.io/gh/BBVAEngineering/polymer-project-builder)
 [![Greenkeeper badge](https://badges.greenkeeper.io/BBVAEngineering/polymer-project-builder.svg)](https://greenkeeper.io/)
 
-Polymer Project Builder is a command line tool to generate a single bundled file optimized for production from a set of HTML imports using [`polymer build`](https://polymer-library.polymer-project.org/2.0/docs/apps/build-for-production). 
+[![NPM](https://nodei.co/npm/polymer-project-builder.png?downloads=true&downloadRank=true)](https://nodei.co/npm/polymer-project-builder/)
+
+Polymer Project Builder is a utility to generate a single bundled file optimized for production from a set of HTML imports using [`polymer build`](https://polymer-library.polymer-project.org/2.0/docs/apps/build-for-production). 
 
 It is meant to be used in projects that don't match a typical Polymer project structure, for instance, where a shell is not present, or simply where the default output of the `polymer build` command does not fit well.
 
