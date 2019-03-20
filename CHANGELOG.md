@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.0.0...v1.1.0) (2019-03-20)
+
+
+### Features
+
+* **index:** export lib from index ([2c55b55](https://github.com/BBVAEngineering/polymer-project-builder/commit/2c55b55))
+
 # 1.0.0 (2019-03-19)
 
 
