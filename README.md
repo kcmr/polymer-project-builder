@@ -13,13 +13,13 @@ It is meant to be used in projects that don't match a typical Polymer project st
 
 It also adds additional build options like **autoprefixer**, **HTML and JavaScript splitting** for [CSP (Content Security Policy)](https://developers.google.com/web/fundamentals/security/csp/) and the ability to change the **bundle file name** and the **destiny path**.
 
-## Installation and usage
-
-Install:
+## Installation
 
 ```
 npm i polymer-project-builder
 ```
+
+## Command line usage
 
 Build a project ([configuration file required](#configuration)):
 
@@ -27,11 +27,11 @@ Build a project ([configuration file required](#configuration)):
 build-polymer-project
 ```
 
-## Configuration
+### Configuration
 
 Polymer Project Builder requires a configuration file called `.polymerprojectrc` placed in the directory where the command is executed or in a parent directory. File paths are relative to the working directory.
 
-### Differences from `polymer.json` specification
+#### Differences from `polymer.json` specification
 
 The configuration file follows the [`polymer.json` specification](https://polymer-library.polymer-project.org/2.0/docs/tools/polymer-json) with some differences:
 
@@ -41,14 +41,14 @@ The configuration file follows the [`polymer.json` specification](https://polyme
 - `bundleFileName` allows to set the name for the HTML bundled file. Defaults to `entrypoint` if not set.
 - `build` (`Object`) instead of `builds` (`Array`). Polymer Project Builder generates **only one build**.
 
-### Build options
+#### Build options
 
 The `build` property in the configuration file accepts an object with the [same options for a build using `polymer build`](https://polymer-library.polymer-project.org/2.0/docs/tools/polymer-json#builds) plus two additional properties:
 
 - `csp` (`Boolean`) Set to `true` to separate JavaScript from HTML. The generated JavaScript file will have the same name that the bundled file with `.js` extension.
 - `autoprefixer` (`Object`) An object with [autoprefixer options](https://github.com/postcss/autoprefixer#options) like `browsers`, `cascade`, etc.
 
-### Example configuration file
+#### Example configuration file
 
 ```json
 {
@@ -81,6 +81,25 @@ The `build` property in the configuration file accepts an object with the [same 
     }
   }
 }
+```
+
+## Programmatically usage
+
+Import the module and create an instance with the same [options](#configuration) used for the command line tool.   
+The `build()` method returns a resolved promise when all the build steps have finished.
+
+```js
+const PolymerProjectBuilder = require('polymer-project-builder');
+
+const config = {
+  // your build options
+};
+
+const builder = new PolymerProjectBuilder(config);
+
+builder.build()
+  .then(() => console.log('Polymer project successfully built!'));
+
 ```
 
 # Contribute
