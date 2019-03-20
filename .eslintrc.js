@@ -13,6 +13,9 @@ module.exports = {
 	env: {
 		node: true
 	},
+	rules: {
+		'no-sync': 0
+	},
 	overrides: [{
 		files: [
 			'tests/**/*.js'
