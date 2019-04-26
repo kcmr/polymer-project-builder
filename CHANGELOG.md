@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.1.0...v1.1.1) (2019-04-26)
+
+
+### Bug Fixes
+
+* **lint:** wrong param for linted files ([a0af999](https://github.com/BBVAEngineering/polymer-project-builder/commit/a0af999))
+
 # [1.1.0](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.0.0...v1.1.0) (2019-03-20)
 
 
