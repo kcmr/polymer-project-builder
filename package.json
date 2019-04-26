@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watch",
-    "lint:js": "eslint --max-warnings 0 ./*.js",
+    "lint:js": "eslint --max-warnings 0 **/*.js",
     "commit": "git-cz",
     "semantic-release": "semantic-release"
   },
