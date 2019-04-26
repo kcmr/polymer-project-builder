@@ -1,6 +1,6 @@
 # Polymer Project Builder
 
-[![Build Status](https://travis-ci.com/BBVAEngineering/polymer-project-builder.svg?branch=master)](https://travis-ci.com/BBVAEngineering/polymer-project-builder)
+[![Build Status](https://travis-ci.org/BBVAEngineering/polymer-project-builder.svg?branch=master)](https://travis-ci.com/BBVAEngineering/polymer-project-builder)
 [![GitHub version](https://badge.fury.io/gh/BBVAEngineering%2Fpolymer-project-builder.svg)](https://badge.fury.io/gh/BBVAEngineering%2Fpolymer-project-builder)
 [![NPM version](https://badge.fury.io/js/polymer-project-builder.svg)](https://badge.fury.io/js/polymer-project-builder)
 [![Dependency Status](https://david-dm.org/BBVAEngineering/polymer-project-builder.svg)](https://david-dm.org/BBVAEngineering/polymer-project-builder)
