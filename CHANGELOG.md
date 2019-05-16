@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.1.1...v1.1.2) (2019-05-16)
+
+
+### Bug Fixes
+
+* **package:** update find-up to version 4.0.0 ([08b27f3](https://github.com/BBVAEngineering/polymer-project-builder/commit/08b27f3))
+
 ## [1.1.1](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.1.0...v1.1.1) (2019-04-26)
 
 
