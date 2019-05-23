@@ -31,7 +31,7 @@
     "find-up": "^4.0.0",
     "fs-extra": "^7.0.1",
     "html-postcss": "^0.1.2",
-    "merge-stream": "^1.0.1",
+    "merge-stream": "^2.0.0",
     "polymer-build": "^3.1.2",
     "vinyl-fs": "^3.0.3"
   },
