@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.1.2...v1.1.3) (2019-05-24)
+
+
+### Bug Fixes
+
+* **package:** update merge-stream to version 2.0.0 ([eaff47b](https://github.com/BBVAEngineering/polymer-project-builder/commit/eaff47b))
+
 ## [1.1.2](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.1.1...v1.1.2) (2019-05-16)
 
 
