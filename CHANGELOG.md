@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.1.3...v1.1.4) (2019-06-12)
+
+
+### Bug Fixes
+
+* include logs for polymer builder errors ([c2462a5](https://github.com/BBVAEngineering/polymer-project-builder/commit/c2462a5))
+
 ## [1.1.3](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.1.2...v1.1.3) (2019-05-24)
 
 
