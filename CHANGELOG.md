@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.1.4...v1.1.5) (2019-07-01)
+
+
+### Bug Fixes
+
+* **package:** update fs-extra to version 8.1.0 ([472fd00](https://github.com/BBVAEngineering/polymer-project-builder/commit/472fd00)), closes [#7](https://github.com/BBVAEngineering/polymer-project-builder/issues/7)
+
 ## [1.1.4](https://github.com/BBVAEngineering/polymer-project-builder/compare/v1.1.3...v1.1.4) (2019-06-12)
 
 
