@@ -2,11 +2,8 @@
 
 [![Build Status](https://travis-ci.org/wc-tools/polymer-project-builder.svg?branch=master)](https://travis-ci.com/wc-tools/polymer-project-builder)
 [![GitHub version](https://badge.fury.io/gh/wc-tools%2Fpolymer-project-builder.svg)](https://badge.fury.io/gh/wc-tools%2Fpolymer-project-builder)
-[![NPM version](https://badge.fury.io/js/polymer-project-builder.svg)](https://badge.fury.io/js/polymer-project-builder)
 [![Dependency Status](https://david-dm.org/wc-tools/polymer-project-builder.svg)](https://david-dm.org/wc-tools/polymer-project-builder)
 [![codecov](https://codecov.io/gh/wc-tools/polymer-project-builder/branch/master/graph/badge.svg)](https://codecov.io/gh/wc-tools/polymer-project-builder)
-
-[![NPM](https://nodei.co/npm/polymer-project-builder.png?downloads=true&downloadRank=true)](https://nodei.co/npm/polymer-project-builder/)
 
 Polymer Project Builder is a utility to generate a single bundled file optimized for production from a set of HTML imports using [`polymer build`](https://polymer-library.polymer-project.org/2.0/docs/apps/build-for-production). 
 

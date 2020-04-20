@@ -13,11 +13,6 @@
     "cli",
     "polymer"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BBVAEngineering/polymer-project-builder.git"
-  },
-  "author": "",
   "license": "MIT",
   "bin": {
     "build-polymer-project": "bin/cli.js"
@@ -97,6 +92,19 @@
     "node": ">=10.0.0"
   },
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/wc-tools/polymer-project-builder/issues"
+  },
+  "homepage": "https://github.com/wc-tools/polymer-project-builder#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wc-tools/polymer-project-builder.git"
+  },
+  "author": "WC Tools <wc.tools.github@gmail.com>",
+  "publishConfig": {
+    "access": "public"
   }
 }
