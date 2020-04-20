@@ -5,7 +5,6 @@
 [![NPM version](https://badge.fury.io/js/polymer-project-builder.svg)](https://badge.fury.io/js/polymer-project-builder)
 [![Dependency Status](https://david-dm.org/wc-tools/polymer-project-builder.svg)](https://david-dm.org/wc-tools/polymer-project-builder)
 [![codecov](https://codecov.io/gh/wc-tools/polymer-project-builder/branch/master/graph/badge.svg)](https://codecov.io/gh/wc-tools/polymer-project-builder)
-[![Greenkeeper badge](https://badges.greenkeeper.io/wc-tools/polymer-project-builder.svg)](https://greenkeeper.io/)
 
 [![NPM](https://nodei.co/npm/polymer-project-builder.png?downloads=true&downloadRank=true)](https://nodei.co/npm/polymer-project-builder/)
 
